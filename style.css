@@ -1,0 +1,37 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-duration: inherit;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+  .box5{
+   
+    width:100px;
+    height: 100px;
+
+
+    animation: na5;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+    
+
+}
+@keyframes na5{
+    0%{
+        transform: translate(100px 100px)
+    }
+    
+    100%{
+        transform: translate(0px)
+    }
+}
